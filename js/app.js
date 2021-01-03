@@ -55,7 +55,7 @@ function mostrarDatos(grados, ciudad, pais){
 
     $respuesta.innerHTML = `
         <p>${ciudad} - ${pais}</p>
-        <p class='clima'>${grados} &#xB0;</p>
+        <p class='clima'>${grados} &#xB0;C</p>
     `;
 
 }
